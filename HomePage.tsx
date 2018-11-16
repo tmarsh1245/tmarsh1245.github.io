@@ -3,7 +3,7 @@ import * as React from "react";
 interface HomePageProps {
     
 }
-export class SystemIndex extends React.Component<HomePageProps> {
+export class HomePage extends React.Component<HomePageProps> {
 
     render() {
         return (
