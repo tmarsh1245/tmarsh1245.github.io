@@ -1,8 +1,0 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-const message = 'Hello World';
-const element = "hey";
-ReactDOM.render(
-    element,
-    document.getElementById('root')
-);
