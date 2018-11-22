@@ -1,25 +1,21 @@
 {
-  "name": "tmarsh",
+  "name": "mybulma",
   "version": "1.0.0",
-  "description": "Stuff for my personal website",
-  "main": "webpack.config.js",
-  "scripts": {
-    "test": "test"
-  },
+  "description": "",
+  "main": "sass/mystyles.scss",
   "repository": {
     "type": "git",
-    "url": "tmarsh.github.io"
+    "url": "tmarsh1245.github.io"
   },
-  "author": "Tanner Marsh",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
     "bulma": "^0.7.2",
-    "css-loader": "^1.0.1",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "node-sass": "^4.10.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.26.0",
-    "webpack-cli": "^3.1.2"
+    "node-sass": "^4.10.0"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   }
 }
