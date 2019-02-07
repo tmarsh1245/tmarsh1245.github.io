@@ -1,68 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <title>Tanner Marsh Personal Site</title>
-    <link rel="stylesheet" href="mybulma/css/mystyles.css">
-    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="customStyles" href="customStyles.scss">
+    <title>Tanner's Site</title>
 </head>
 <body>
-<section class="hero is-primary is-bold">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">
-                Tanner Marsh Personal Site
-            </h1>
-            <h2 class="subtitle">
-                Feel free to learn about me...
-            </h2>
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: navy">
+    <a class="navbar-brand" href="#">Tanner</a>
+    <div class="collapse navbar-collapse justify-content-between">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sites</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Apps</a>
+            </li>
+            <li class="nav-item mr-auto">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        <span>
+            <i class="fab fa-twitter" style="color: white"></i>
+            <i class="fab fa-github" style="color: white"></i>
+            <i class="fab fa-linkedin-in" style="color: white"></i>
+        </span>
+    </div>
+</nav>
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col" style="background-color: indianred">
+            <h1 class="text-white">Greetings!</h1>
+            <h3 class="text-white">Let me tell you what I'm about...</h3>
+            <p class="text-white">yeet yeet YEET</p>
+        </div>
+        <div class="col">
+            <img src="photos/tm_headshot.png">
         </div>
     </div>
-</section>
-    <nav class="navbar is-bordered is-fullwidth is-primary" role="navigation" aria-label="main navigation">
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item">
-                    Home
-                </a>
-
-                <a class="navbar-item">
-                    Academics
-                </a>
-
-                <a class="navbar-item">
-                    Experience
-                </a>
-
-                <a class="navbar-item">
-                    About
-                </a>
-
-                <a class="navbar-item">
-                    Contact
-                </a>
-            </div>
-            <div class="navbar-end">
+    <br>
+    <div class="row">
+        <div class="col">
+            <p>
+                <button class="btn btn-primary" style="background-color: royalblue" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Why Computer Science?</button>
+                <button class="btn btn-primary" style="background-color: firebrick" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Why the Math Minor?</button>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-    <figure class="image is-3by1">
-        <img  src="mybulma/photos/floridaSunsetResized.png">
-    </figure>
-    <section class="section">
-        <div class="container">
-            <h1 class="title">Who am I...</h1>
-            <div></div>
-            <h2 class="subtitle">
-                    Welcome! If you're here you have probably followed a link sent by myself or found through LinkedIn or other source. I created this website from scratch using Bulma for styling, HTML, and hosting through GitHub. I've realized I quite enjoy the aesthetic side of coding as its a creative break from my mainly logical based activities and allows me to strike a nice balance of thinking. It's one of my strengths to balanced, whether between creative and logical thinking, being a tech person and a people person, and being structured yet flexible.
-            </h2>
-            <h2 class="subtitle">
-                    If you're an employer looking for a well balanced team player to join your team, let me tell you, I'm your guy. Currently interested in a summer internship, I am actively applying and now would be an ideal time to contact me. What is important in a company for me is an environment conducive to self improvement preferably operating with Agile methodologies. You'll find I am extremely loyal and self motivated, but even more so when I enjoy where I am working.
-            </h2>
-            <h2 class="subtitle">
-                    This website acts as somewhat of an extra resume, but I'd like it to be more intimate than that. While you check my academic record or professional experience, please also consider browsing my interests and taking in who I really am. After all, you should get to know your future employee. Enjoy!
-            </h2>
-        </div>
-    </section>
+    </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
