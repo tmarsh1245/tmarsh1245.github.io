@@ -1,4 +1,7 @@
-.jumbotron{
+img {
+    width: 100%;
+}
+#jumboHome{
     background-image: url('photos/fullScoob3.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -43,4 +46,8 @@
 
 #footerText {
     color: white;
+}
+
+.card-body{
+    background-color: #E8E2DB;
 }
