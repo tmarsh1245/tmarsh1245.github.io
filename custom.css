@@ -1,0 +1,46 @@
+.jumbotron{
+    background-image: url('photos/fullScoob3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#jumboText{
+    font-family: Verdana;
+    text-align: center;
+    vertical-align: center;
+    font-size: 80px;
+    color: white;
+}
+.btn-primary{
+    background-color: #92140C;
+}
+
+#cardImage{
+    height: 275px;
+}
+.card-body{
+    height: 300px;
+}
+.page-footer {
+    width: 100%;
+    min-height: 132px;
+    background-color: #92140C;
+    text-align:center;
+}
+.page-footer .fa {
+    display:inline-block;
+    vertical-align:middle;
+    color: #444;
+    font-size: 2.2em;
+    background-color: #fff;
+    border: 4px solid #E6E6FA;
+    border-radius: 48px;
+    height: 52px;
+    line-height: 44px;
+    width: 52px;
+    margin:20px 5px;
+}
+
+#footerText {
+    color: white;
+}

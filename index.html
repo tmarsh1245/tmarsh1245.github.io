@@ -8,74 +8,112 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="customStyles" href="customStyles.scss">
+    <link rel="stylesheet" href="custom.css">
     <title>Tanner's Site</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: navy">
-    <a class="navbar-brand" href="#">Tanner</a>
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #002C43">
+    <a class="navbar-brand" href="index.html">Tanner</a>
     <div class="collapse navbar-collapse justify-content-between">
         <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Sites</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Apps</a>
+                <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item mr-auto">
                 <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
         <span>
-            <i class="fab fa-twitter" style="color: white"></i>
-            <i class="fab fa-github" style="color: white"></i>
-            <i class="fab fa-linkedin-in" style="color: white"></i>
+            <a href="https://twitter.com/tmarsh1245"><i class="fab fa-twitter" style="color: white"></i></a>
+            <a href="https://github.com/tmarsh1245"><i class="fab fa-github" style="color: white"></i></a>
+            <a href="https://www.linkedin.com/in/tannerjmarsh/"><i class="fab fa-linkedin-in" style="color: white"></i></a>
         </span>
     </div>
 </nav>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 id="jumboText">Hi, I'm Tanner Marsh</h1>
+        <br>
+        <br>
+    </div>
+</div>
 <div class="container">
-    <br>
+
     <div class="row">
-        <div class="col" style="background-color: indianred">
-            <h1 class="text-white">Greetings!</h1>
-            <h3 class="text-white">Let me tell you what I'm about...</h3>
-            <p class="text-white">yeet yeet YEET</p>
+        <div class="col-6">
+            <div class="row">
+                <div class="col" style="background-color: #92140C">
+                    <h1 class="text-white">Greetings!</h1>
+                    <h3 class="text-white">Let me tell you what I'm about...</h3>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col" style="background-color: #E8E2DB">
+                    <p class="text-white"> </p>
+                </div>
+            </div>
+
         </div>
-        <div class="col">
+        <div class="col-6">
             <img src="photos/tm_headshot.png">
         </div>
     </div>
     <br>
     <div class="row">
-        <div class="col">
-            <p>
-                <button class="btn btn-primary" style="background-color: royalblue" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Why Computer Science?</button>
-                <button class="btn btn-primary" style="background-color: firebrick" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Why the Math Minor?</button>
-            </p>
-            <div class="row">
-                <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                        <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
-                    </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="photos/tannerSpeaks.JPG" class="card-img-top" alt="..." id="cardImage">
+                <div class="card-body">
+                    <h5 class="card-title">About Me</h5>
+                    <p class="card-text">Learn about who I am and what I do. In school out of school, everything. We're going to be besties by the time your done here.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapseExample2">
-                        <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="photos/TARShop.png" class="card-img-top" alt="..." id="cardImage">
+                <div class="card-body">
+                    <h5 class="card-title">Websites</h5>
+                    <p class="card-text">Including this one, I've had a part to play in a handful of websites out there today. Let me show them off a bit.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="photos/codeGuy.jpg" class="card-img-top" alt="..." id="cardImage">
+                <div class="card-body">
+                    <h4 class="card-title">Projects</h4>
+                    <h5 class="card-text">Here are some non-website projects, coding and otherwise which I have done throughout the years. I take a lot of pride in each of these.</h5>
+                    <a href="#" class="btn btn-primary" style="vertical-align: middle">Go somewhere</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
+<br>
+<br>
+<footer class="page-footer">
+    <br>
+    <a href="https://twitter.com/tmarsh1245"><i class="fab fa-twitter" style="color: white"></i></a>
+    <a href="https://github.com/tmarsh1245"><i class="fab fa-github" style="color: white"></i></a>
+    <a href="https://www.linkedin.com/in/tannerjmarsh/"><i class="fab fa-linkedin-in" style="color: white"></i></a>
+    <br>
+    <p style="text-align: center" id="footerText">@2019 Tanner Marsh</p>
+    <p style="text-align: center" id="footerText">Stay hydrated, look good doing it</p>
+    <br>
+</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
