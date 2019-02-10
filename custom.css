@@ -6,6 +6,16 @@ img {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#jumboAbout{
+    background-image: url('photos/seeingDoubleFiltered2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#jumboProjects{
+    background-image: url('photos/tannersKingdomFiltered.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 #jumboContact{
     background-image: url('photos/tannerSeesFiltered2.png');
     background-size: 100%;
