@@ -73,3 +73,8 @@ h2 {
     text-align: center;
 }
 
+hr{
+    border-top: 3px double #8c8b8b;
+    text-color: #92140C;
+}
+
